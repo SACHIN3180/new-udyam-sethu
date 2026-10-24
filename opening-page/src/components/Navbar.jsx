@@ -94,13 +94,6 @@ export const Navbar = () => {
             >
               Employers
             </Link>
-            <Link
-              to="/admin/login"
-              className={`nav-item ${location.pathname.startsWith("/admin") ? "active" : ""}`}
-              style={{ color: "#b45309", display: "flex", alignItems: "center", gap: "0.25rem" }}
-            >
-              <ShieldCheck size={16} /> Admin Portal
-            </Link>
           </div>
 
           {/* Controls: Language, Low-BW, Simulated Email, User Profile */}
@@ -126,7 +119,7 @@ export const Navbar = () => {
 
             {/* Language Selector */}
             <div className="lang-selector">
-              <button
+              <button 
                 className={`lang-btn ${language === "en" ? "active" : ""}`}
                 onClick={() => setLanguage("en")}
               >

@@ -399,10 +399,10 @@ export const OpeningPage = () => {
               Review pending employer & institution registration requests, approve or reject applications, view statewide statistics, and manage audit logs.
             </p>
           </div>
-          <Link to="/admin/login" className="btn btn-secondary" style={{ background: "#f59e0b", color: "#000000", border: "none", fontWeight: 700 }}>
+          {/* <Link to="/admin/login" className="btn btn-secondary" style={{ background: "#f59e0b", color: "#000000", border: "none", fontWeight: 700 }}>
             <span>Sign into Admin Portal</span>
             <ArrowRight size={16} />
-          </Link>
+          </Link> */}
         </div>
       </section>
     </div>

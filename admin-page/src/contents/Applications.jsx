@@ -43,13 +43,11 @@ const initialRequests = [
 
 const navigation = [
   { label: "Overview", icon: "▦", path: "/admin/dashboard" },
-  { label: "Applications", icon: "▤", path: "/admin/applications" },
-  { label: "Candidates", icon: "♙", path: "/admin/candidates" },
-  { label: "Job Postings", icon: "▣", path: "/admin/jobs" },
-  { label: "Employers", icon: "▥", path: "/admin/companies" },
-  { label: "Institutions", icon: "⌂", path: "/admin/institutions" },
-  { label: "Reports", icon: "▥", path: "/admin/reports" },
-  { label: "Settings", icon: "⚙", path: "/admin/settings" },
+  { label: "Applications", icon: "📄", path: "/admin/applications" },
+  { label: "Employers", icon: "🏢", path: "/admin/companies" },
+  { label: "Institutions", icon: "🎓", path: "/admin/institutions" },
+  { label: "Reports", icon: "📊", path: "/admin/reports" },
+  { label: "Settings", icon: "⚙️", path: "/admin/settings" },
 ];
 
 function StatusBadge({ status }) {
